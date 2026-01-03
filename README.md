@@ -65,11 +65,11 @@ flowchart LR
   class PUB,KIND,ROLL,SMOKE dep;
 
   linkStyle default stroke:#94a3b8,stroke-width:1.5px;
-````
+```
 
 ---
 
-## 🎯 Why this repo exists
+## 🎯 What is this repo about?
 
 This repo is primarily about the delivery process (CI/CD), not complex business logic. It demonstrates how to:
 
@@ -238,10 +238,28 @@ CD runs only on `main` (and `workflow_dispatch` for demos).
 
 ---
 
+## ✅ DevOps Topics Covered
+
+- **Source Control & Branching Strategy**: Feature branches → Dev → Main flow with protected branches and PR reviews.
+- **Collaboration**: Code reviews enforced via Pull Requests.
+- **CI (Continuous Integration)**: Automated Linting (flake8), Formatting (black), and Testing (pytest).
+- **CD (Continuous Delivery)**: Automated pipelines for building, tagging, and deploying to Kubernetes.
+- **Artifact Management**: Versioned Docker images stored in GitHub Container Registry (GHCR).
+- **Docker**: Optimized Multi-stage builds for smaller, more secure images.
+- **Kubernetes Orchestration**:
+  - **High Availability**: Running multiple replicas to ensure uptime.
+  - **Self-healing**: Liveness & Readiness probes for automatic recovery.
+  - **Zero-downtime Deployment**: Rolling updates strategy.
+- **Security (DevSecOps)**:
+  - **SAST**: Static Application Security Testing with GitHub CodeQL.
+  - **Container Security**: Vulnerability scanning with Trivy (blocking critical CVEs).
+- **Infrastructure as Code (IaC)**: Pipelines and Kubernetes manifests defined in code.
+- **Public Cloud Services**: Leveraging GitHub Actions runners and Cloud Registry.
+
+---
+
 ## 🔮 Roadmap Ideas
 
 * Real Steam API calls & caching (Redis)
 * DB + migrations (PostgreSQL + Alembic)
 * Basic front-end client with its own pipeline
-
-

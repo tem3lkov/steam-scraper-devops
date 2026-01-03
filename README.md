@@ -1,7 +1,7 @@
 # DevOps SteamScraper
 
-[![CI](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/ci.yml/badge.svg)](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/ci.yml)
-[![CD](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/cd.yml/badge.svg)](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/cd.yml)
+[![CI](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/ci.yaml/badge.svg)](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/ci.yaml)
+[![CD](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/cd.yaml/badge.svg)](https://github.com/tem3lkov/steam-scraper-devops/actions/workflows/cd.yaml)
 
 ![Python](https://img.shields.io/badge/Python-3.12-blue?logo=python&logoColor=white)
 ![FastAPI](https://img.shields.io/badge/FastAPI-0.109-009688?logo=fastapi&logoColor=white)

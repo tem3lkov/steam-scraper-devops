@@ -44,6 +44,12 @@ jobs:
       - name: Unit tests (pytest)
         run: pytest -q
 
+      - name: SonarCloud Scan
+        uses: SonarSource/sonarcloud-github-action@master
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          SONAR_TOKEN: ${{ secrets.SONAR_TOKEN }}
+
   container-security-scan:
     name: Container Security (build runtime + Trivy)
     runs-on: ubuntu-latest

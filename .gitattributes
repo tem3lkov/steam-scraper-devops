@@ -1,0 +1,2 @@
+# Ignore all HTML files from the statistics
+*.html linguist-vendored
